@@ -7,7 +7,7 @@
 Our goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales. Our target is to increase Item Sales per Outlet. To do so, I inspect features that contribute to outlet sales.
 ---
 Data Source:
-
+[sales_predictions_2023.csv](https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view)
 ---
 
 **Data Dictionary:**
