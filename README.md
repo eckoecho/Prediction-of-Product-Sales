@@ -1,8 +1,10 @@
-# Prediction-of-Product-Sales
+# Prediction of Product Sales
+----
+## Inspecting Outlet Features to Predict Sales
+---
+**Author**: Echo Diaz
 
-Our goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales.
-
-Our target is to increase Item Sales per Outlet, so I inspect features that may affect out outlet sales.
+Our goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales. Our target is to increase Item Sales per Outlet, so I inspect features that may affect out outlet sales.
 
 **Data Dictionary:**
 | Variable Name | Description |
