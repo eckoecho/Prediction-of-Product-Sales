@@ -29,4 +29,8 @@ Data Source:
 |**Item_Outlet_Sales**| Sales of the product in the particular store. This is the target variable to be predicted.|
 
 ---
-To prepare this data, the data was cleaned, and the following processes were performed:
+##To prepare this data, the data was cleaned, and the following processes were performed:
+### Exploratory Data Analysis
+```
+placeholder
+```
