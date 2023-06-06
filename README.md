@@ -30,7 +30,10 @@ Data Source:
 
 ---
 ## To prepare this data, the data was cleaned, and the following processes were performed:
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA)
 ```
-placeholder
+- During the exploratory data analysis, a mixture of scatterplots, boxplots, and histograms were visualized for each datatype column. 
+- Boxplots and barplots were visualized for each categorical column. 
+- Scatterplots were visualized for numerical columns.
+- This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 ```
