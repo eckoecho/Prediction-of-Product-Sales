@@ -1,4 +1,5 @@
-# Prediction of Product Sales
+# ![ds git](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/412d74b9-43e6-4d64-9ba5-e705326cb6a7)
+Prediction of Product Sales
 ----
 ## Inspecting Outlet Features to Predict Sales
 ---
