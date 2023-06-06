@@ -32,8 +32,10 @@ Data Source:
 ## To prepare this data, the data was cleaned, and the following processes were performed:
 ### Exploratory Data Analysis (EDA)
 ```
-- During the exploratory data analysis, a mixture of scatterplots, boxplots, and histograms were visualized for each datatype column. 
+- During the exploratory data analysis, a mixture of scatterplots, barplots, boxplots, and histograms were visualized for each datatype column. 
 - Boxplots and barplots were visualized for each categorical column. 
-- Scatterplots were visualized for numerical columns.
+- Scatterplots and boxplots were visualized for numerical columns.
 - This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 ```
+<img width="567" alt="Screenshot 2023-06-05 at 10 09 26 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/bc79e718-ce81-457c-b9a2-b8d85cf5857a">
+
