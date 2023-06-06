@@ -4,7 +4,7 @@
 ---
 **Author**: Echo Diaz
 
-Our goal of this is to help the retailer understand the properties of products and outlets that play crucial roles in increasing sales. Our target is to increase Item Sales per Outlet. To do so, I inspect features that contribute to outlet sales.
+Our goal of this is to help retailers understand the properties of products and outlets that play crucial roles in increasing sales. Our target is to increase Item Sales per Outlet. To do so, I inspect features that contribute to outlet sales.
 
 ---
 Data Source:
