@@ -37,5 +37,6 @@ Data Source:
 - Scatterplots and boxplots were visualized for numerical columns.
 - This gave a good baseline for all of the numeric and categorical columns for univariate EDA.
 ```
-<img width="567" alt="Screenshot 2023-06-05 at 10 09 26 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/bc79e718-ce81-457c-b9a2-b8d85cf5857a">
+<img width="571" alt="Screenshot 2023-06-05 at 10 12 46 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/d2276846-d735-4c7f-bb74-29410936cc5d">
+
 
