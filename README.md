@@ -44,4 +44,11 @@ Data Source:
 
 This histogram and boxplot shows the number of outlets and their respective Outlet Sales. The majority of Outlet Sales fall around $2,000.
 
+### Explanatory Data Analysis
+```
+- To visualize the data for explantory purposes, the scatterplot shows a positive trendline to Item MRP.
+- The scatterplot was chosen to show how Item MRP effects Outlet Sales. 
+- Finally, we see higher Item MRP increases Outlet Sales. 
+```
+<img width="588" alt="Screenshot 2023-06-05 at 10 52 06 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b422f0e0-8fe6-40f7-b4f3-250593090363">
 
