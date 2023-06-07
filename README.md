@@ -67,10 +67,19 @@ This shows the quantity of items per food category. We see that the top counts o
 
 ## For those who own or manage outlets:
 
-My analysis indicates the need for fast and low effort foods. Adding more ready-made or on-the-go foods increase outlet sales.
+My analysis indicates the need for quick, low-effort foods. Adding more ready-made or on-the-go foods increase outlet sales.
 
 Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher MRP and sales will increase.
 
 ## Model Performance: 
 
 The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  Deploy this model to have future predictions.
+---
+# **Limitations & Next Steps**
+This model could be improved by diving further into grouping Item Types and inspecting different Outlet Size and Outlet Identifiers.
+--
+# **For Further Information**
+For any additional questions, please contact:
+
+Echo Diaz (Data Scientist)
+eckoecho@gmail.com
