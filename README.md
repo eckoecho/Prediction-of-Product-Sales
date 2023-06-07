@@ -46,15 +46,25 @@ This histogram and boxplot shows the number of outlets and their respective Outl
 
 ---
 ### Explanatory Data Analysis
+<img width="606" alt="Screenshot 2023-06-06 at 9 15 35 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/bfa6238d-97a5-476c-8922-fc2a6a706886">
+
 ```
 - To visualize the data for explantory purposes, the scatterplot shows a positive trendline to Item MRP.
 - The scatterplot was chosen to show how Item MRP effects Outlet Sales. 
 - Finally, we see higher Item MRP increases Outlet Sales. 
 ```
-<img width="588" alt="Screenshot 2023-06-05 at 10 52 06 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b422f0e0-8fe6-40f7-b4f3-250593090363">
----
 
+<img width="598" alt="Screenshot 2023-06-06 at 9 16 16 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/7d4679ff-8b21-4c5c-9938-aae3cc909130">
+
+This shows the quantity of items per food category. We see that the top counts of food categories include:
+1. Fruits and Vegetables
+2. Snack Foods
+3. Household
+4. Frozen Foods
+
+---
 # Recommendation
+
 
 My analysis indicates the need for fast and low effort foods. Adding more ready-made or on-the-go foods help to raise outlet sales.
 
