@@ -1,14 +1,14 @@
 # ![ds git](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/412d74b9-43e6-4d64-9ba5-e705326cb6a7)
-Prediction of Product Sales
+**Prediction of Product Sales**
 ----
-## Inspecting Outlet Features to Predict Sales
+## **Inspecting Outlet Features to Predict Sales**
 ---
 **Author**: Echo Diaz
 
 Our goal of this is to help retailers understand the properties of products and outlets that play crucial roles in increasing sales. Our target is to increase Item Sales per Outlet. To do so, I inspect features that contribute to outlet sales.
 
 ---
-Data Source:
+**Data Source**:
 [sales_predictions_2023.csv](https://drive.google.com/file/d/1syH81TVrbBsdymLT_jl2JIf6IjPXtSQw/view)
 ---
 
@@ -30,7 +30,7 @@ Data Source:
 
 ---
 ## To prepare this data, the data was cleaned, and the following processes were performed:
-### Exploratory Data Analysis (EDA)
+### **Exploratory Data Analysis (EDA)**
 ```
 - During the exploratory data analysis, a mixture of scatterplots, barplots, boxplots, and histograms were visualized for each datatype column. 
 - Boxplots and barplots were visualized for each categorical column. 
@@ -45,7 +45,7 @@ Data Source:
 This histogram and boxplot shows the number of outlets and their respective Outlet Sales. The majority of Outlet Sales fall around $2,000.
 
 ---
-### Explanatory Data Analysis
+### **Explanatory Data Analysis**
 <img width="606" alt="Screenshot 2023-06-06 at 9 15 35 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/bfa6238d-97a5-476c-8922-fc2a6a706886">
 
 ```
@@ -63,7 +63,7 @@ This shows the quantity of items per food category. We see that the top counts o
 4. Frozen Foods
 
 ---
-# Recommendation
+# **Recommendations**
 
 ## For those who own or manage outlets:
 
