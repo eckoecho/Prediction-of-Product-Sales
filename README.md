@@ -56,7 +56,7 @@ This histogram and boxplot shows the number of outlets and their respective Outl
 
 # Recommendation
 
-My analysis indicate the need for fast and low effort foods. Adding more ready-made or on-the-go foods help to raise outlet sales.
+My analysis indicates the need for fast and low effort foods. Adding more ready-made or on-the-go foods help to raise outlet sales.
 
 Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher MRP and sales will increase.
 
