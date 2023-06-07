@@ -54,7 +54,7 @@ This histogram and boxplot shows the number of outlets and their respective Outl
 <img width="588" alt="Screenshot 2023-06-05 at 10 52 06 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b422f0e0-8fe6-40f7-b4f3-250593090363">
 ---
 
-#Recommendation
+# Recommendation
 
 My analysis indicate the need for fast and low effort foods. Adding more ready-made or on-the-go foods help to raise outlet sales.
 
