@@ -44,6 +44,7 @@ Data Source:
 
 This histogram and boxplot shows the number of outlets and their respective Outlet Sales. The majority of Outlet Sales fall around $2,000.
 
+---
 ### Explanatory Data Analysis
 ```
 - To visualize the data for explantory purposes, the scatterplot shows a positive trendline to Item MRP.
@@ -51,4 +52,12 @@ This histogram and boxplot shows the number of outlets and their respective Outl
 - Finally, we see higher Item MRP increases Outlet Sales. 
 ```
 <img width="588" alt="Screenshot 2023-06-05 at 10 52 06 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b422f0e0-8fe6-40f7-b4f3-250593090363">
+---
 
+#Recommendation
+
+My analysis indicate the need for fast and low effort foods. Adding more ready-made or on-the-go foods help to raise outlet sales.
+
+Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher MRP and sales will increase.
+
+The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  Deploy this model to have future predictions.
