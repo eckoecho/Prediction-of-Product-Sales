@@ -66,7 +66,7 @@ This shows the quantity of items per food category. We see that the top counts o
 # Recommendation
 
 
-My analysis indicates the need for fast and low effort foods. Adding more ready-made or on-the-go foods help to raise outlet sales.
+My analysis indicates the need for fast and low effort foods. Adding more ready-made or on-the-go foods increase outlet sales.
 
 Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher MRP and sales will increase.
 
