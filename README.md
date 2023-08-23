@@ -76,7 +76,9 @@ Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher
 The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  Deploy this model to have future predictions.
 ---
 # **Limitations & Next Steps**
+
 This model could be improved by diving further into grouping Item Types and inspecting different Outlet Size and Outlet Identifiers.
+
 --
 ### Coefficients Interpreted
 
