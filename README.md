@@ -78,6 +78,17 @@ The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I 
 # **Limitations & Next Steps**
 This model could be improved by diving further into grouping Item Types and inspecting different Outlet Size and Outlet Identifiers.
 --
+
+
+
+![plot_linreg_coefficients](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/57596d5d-2cfb-4e2e-9f08-5dac3732dc95)
+
+
+
+![plot_rf_important_features](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b459db8b-74e0-417a-baf7-bfe68afc240b)
+
+
+
 # **For Further Information**
 For any additional questions, please contact:
 
