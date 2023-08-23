@@ -76,8 +76,29 @@ Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher
 The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  Deploy this model to have future predictions.
 ---
 # **Limitations & Next Steps**
+
 This model could be improved by diving further into grouping Item Types and inspecting different Outlet Size and Outlet Identifiers.
+
 --
+### Coefficients Interpreted
+
+* If we increase the `outlet-size-high` by 3 standard deviation amount, the measure of sales increases by 3.099974e+16 units.
+* If we increase the `outlet-size-medium` by 2 standard deviation amount, the measure of sales increases by 2.256698e+16 units.
+* If we decrease the `outlet-location-type-tier3` by -2 standard deviation amount, the measure of sales decrease by -1.841230e+16 units.
+![plot_linreg_coefficients](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/6ad75ac3-2b58-4bcc-948d-82c75cb7f1cb)
+
+### Feature Importance Interpreted
+
+Higher importance values means a feature has a stronger impact on this model's predictions.
+* The item's MRP (maximum retail price) has the strongest impact (.467) on the prediction of sales.
+* Outlet Type has the 2nd strongest impact on the prediction of sales with .192.
+* An item's visibility has the 3rd strongest impact on prediction of sales with .121.
+* Outlet 027 has a significant impact on the prediction of sales with .043.
+* Supermarket Type3 has a significant impact on the prediction of sales with .033.
+![plot_rf_important_features](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/e29d4875-91bf-4a6d-9888-ae7b3d33604f)
+
+
+---
 # **For Further Information**
 For any additional questions, please contact:
 
