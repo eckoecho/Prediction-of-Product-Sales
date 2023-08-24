@@ -82,20 +82,32 @@ This model could be improved by diving further into grouping Item Types and insp
 --
 ### Coefficients Interpreted
 
-* If we increase the `outlet-size-high` by 3 standard deviation amount, the measure of sales increases by 3.099974e+16 units.
-* If we increase the `outlet-size-medium` by 2 standard deviation amount, the measure of sales increases by 2.256698e+16 units.
-* If we decrease the `outlet-location-type-tier3` by -2 standard deviation amount, the measure of sales decrease by -1.841230e+16 units.
-![plot_linreg_coefficients](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/6ad75ac3-2b58-4bcc-948d-82c75cb7f1cb)
+* If the `outlet_identifier_OUT027` feature increases by 1 unit it will increase the outlet sales by at 675. This outlet seems to have a significant positive impact on sales, possibly due to factors like its location, size, marketing strategies, or product assortment.
+* If we increase the `outlet-location-type-tier3` feature by 1 unit it increases outlet sales 675. This could imply that products sold in locations categorized as "Tier 3" have a positive impact on sales, possibly due to factors like demographics, local preferences, or economic conditions.=
+* If we decrease the `outlet-type_grocery_store` by 1 unit it decreases the outlet sales by 856.  This might indicate that "Grocery Store" outlets have a negative impact on sales, possibly due to factors like limited product variety, lower foot traffic, or pricing strategies.
+![plot_linreg_coefficients](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/f05de8b1-97fc-4970-9f1b-f6348fc00f78)
+
 
 ### Feature Importance Interpreted
 
-Higher importance values means a feature has a stronger impact on this model's predictions.
+ Higher importance values means a feature has a stronger impact on this RegressionForest's predictions.
 * The item's MRP (maximum retail price) has the strongest impact (.467) on the prediction of sales.
-* Outlet Type has the 2nd strongest impact on the prediction of sales with .192.
+* Outlet Type Grocery Store has the 2nd strongest impact on the prediction of sales with .192.
 * An item's visibility has the 3rd strongest impact on prediction of sales with .121.
 * Outlet 027 has a significant impact on the prediction of sales with .043.
 * Supermarket Type3 has a significant impact on the prediction of sales with .033.
-![plot_rf_important_features](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/e29d4875-91bf-4a6d-9888-ae7b3d33604f)
+![plot_rf_important_features](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/453c844c-8ed0-4fc9-a5fa-699199a5aa69)
+
+
+### Summary Dot plot -  Top 3 Important Features Interpreted 
+
+* `item_mrp` The red dots indicate a high positive SHAP value and suggests that as the Maximum Retail Price of an item increases, the RegressionForest's predictions of outlet sales also increase.
+* `outlet-type_grocery_store` A high negative SHAP value for this feature indicates that when products are sold in "Grocery Store" type outlets, the model predicts lower sales. Products sold in grocery store outlets have a negative impact on sales, possibly due to factors like limited product variety or lower foot traffic in such outlets.
+* `outlet-identifier-OUT027` A high positive SHAP value for this feature indicates that products sold in the outlet with identifier "OUT027" are associated with significantly higher predictions of sales. Sales are substantially increased when OUT027's products are sold. This outlet seems to have a unique and positive impact on sales, possibly due to various factors like location, popularity, or effective marketing.
+![summary_dot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/a915202d-0a6b-4b14-9f0c-52a3cd028701)
+
+####
+![summary_plot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/d579e4c6-0828-47d8-b275-99b436623fab)
 
 
 ---
