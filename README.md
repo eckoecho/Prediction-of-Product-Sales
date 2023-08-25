@@ -103,6 +103,7 @@ This model could be improved by diving further into grouping Item Types and insp
 ![summary_plot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/d579e4c6-0828-47d8-b275-99b436623fab)
 
 Your comparison of most important features found by shap vs feature importance:
+As you can see from the plots above, RandomForestRegressor and Shap's top features have overlapping results, agreeing on the importance of `Item_MRP` and `Outlet_Type_Grocery Store`.  `Item_Visibility` is in RandomForestRegressor's top features while Shap's model picked `Outlet_Identifier_OUT027`. The difference could be explained by the randomization used in the Shap model. 
 
 ### Summary Dot Plot -  Top 3 Important Features Interpreted 
 ![summary_dot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/a915202d-0a6b-4b14-9f0c-52a3cd028701)
