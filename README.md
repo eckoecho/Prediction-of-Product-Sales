@@ -99,7 +99,10 @@ This model could be improved by diving further into grouping Item Types and insp
 * Outlet 027 has a significant impact on the prediction of sales with .043.
 * Supermarket Type3 has a significant impact on the prediction of sales with .033.
 
+#### Summary Bar Plot - bar version
+![summary_plot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/d579e4c6-0828-47d8-b275-99b436623fab)
 
+Your comparison of most important features found by shap vs feature importance:
 
 ### Summary Dot Plot -  Top 3 Important Features Interpreted 
 ![summary_dot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/a915202d-0a6b-4b14-9f0c-52a3cd028701)
@@ -107,15 +110,6 @@ This model could be improved by diving further into grouping Item Types and insp
 * `item_mrp` The red dots indicate a high positive SHAP value and suggests that as the Maximum Retail Price of an item increases, the RegressionForest's predictions of outlet sales also increase.
 * `outlet-type_grocery_store` A high negative SHAP value for this feature indicates that when products are sold in "Grocery Store" type outlets, the model predicts lower sales. Products sold in grocery store outlets have a negative impact on sales, possibly due to factors like limited product variety or lower foot traffic in such outlets.
 * `outlet-identifier-OUT027` A high positive SHAP value for this feature indicates that products sold in the outlet with identifier "OUT027" are associated with significantly higher predictions of sales. Sales are substantially increased when OUT027's products are sold. This outlet seems to have a unique and positive impact on sales, possibly due to various factors like location, popularity, or effective marketing.
-
-
-#### Summary Bar Plot - bar version
-![summary_plot_rf_feature_importance](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/d579e4c6-0828-47d8-b275-99b436623fab)
-
-Your comparison of most important features found by shap vs feature importance:
-
-
-
 
 ---
 # **For Further Information**
