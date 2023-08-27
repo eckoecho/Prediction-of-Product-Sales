@@ -112,6 +112,12 @@ As you can see from the plots above, RandomForestRegressor and Shap's top featur
 * `outlet-type_grocery_store` A high negative SHAP value for this feature indicates that when products are sold in "Grocery Store" type outlets, the model predicts lower sales. Products sold in grocery store outlets have a negative impact on sales, possibly due to factors like limited product variety or lower foot traffic in such outlets.
 * `outlet-identifier-OUT027` A high positive SHAP value for this feature indicates that products sold in the outlet with identifier "OUT027" are associated with significantly higher predictions of sales. Sales are substantially increased when OUT027's products are sold. This outlet seems to have a unique and positive impact on sales, possibly due to various factors like location, popularity, or effective marketing.
 
+### Interpreting an Individual Force Plot
+<img width="903" alt="Screenshot 2023-08-27 at 4 42 29 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b35902c4-481e-4095-8a5a-b1bbdf1e79ca">
+
+### Lime Tabular Explanation
+<img width="897" alt="Screenshot 2023-08-27 at 4 43 13 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/b5d228fd-7f41-4a5f-b400-42019c032ee0">
+
 ---
 # **For Further Information**
 For any additional questions, please contact:
