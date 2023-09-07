@@ -112,6 +112,39 @@ As you can see from the plots above, RandomForestRegressor and Shap's top featur
 * `outlet-type_grocery_store` A high negative SHAP value for this feature indicates that when products are sold in "Grocery Store" type outlets, the model predicts lower sales. Products sold in grocery store outlets have a negative impact on sales, possibly due to factors like limited product variety or lower foot traffic in such outlets.
 * `outlet-identifier-OUT027` A high positive SHAP value for this feature indicates that products sold in the outlet with identifier "OUT027" are associated with significantly higher predictions of sales. Sales are substantially increased when OUT027's products are sold. This outlet seems to have a unique and positive impact on sales, possibly due to various factors like location, popularity, or effective marketing.
 
+
+### Force Plot - Interpreted
+<img width="1001" alt="Screenshot 2023-09-07 at 10 44 32 AM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/c9748989-86b8-479b-bfce-a7b9be2fb299">
+
+* If a bar is to the right of the base value (positive side), it means the feature's value is increasing the prediction.
+* This individual force plot's values are to the right of the base value, meaning the features in red contribute to the model's prediction of this particular sample. These particular features increase the value above the base value (2,211) by 1,790.
+* The features contributing to increased value are:
+    * Belongs to Outlet_Identifier_OUT027
+    * Is an Type 3 Supermarket 
+    * Is not a grocery store
+
+
+### Lime Tabular Interpreted
+<img width="853" alt="Screenshot 2023-09-07 at 10 33 42 AM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/cee00ab1-c0a7-4738-b9e2-968f9874e391">
+
+This LIME plot reflects the contribution of each feature to the prediction of this particular data sample.
+This sample's features add positively to the prediction:
+* Is *not* a grocery store
+* A high item MRP
+* Type 3 Supermarket
+* Belongs to OUTLET027
+* Carries Starchy & Other Foods
+
+Features that negatively impact the predicted value:
+* No seafood
+* No breakfast items
+* No bread
+* No health & hygiene items
+
+
+Collectively, these features have a predicted value of 5,735. The progress bar shows range in which value varies and actual prediction.
+
+
 ---
 # **For Further Information**
 For any additional questions, please contact:
