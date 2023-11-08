@@ -5,7 +5,7 @@
 ---
 **Author**: Echo Diaz
 
-My goal of this is to help retailers understand the properties of products and outlets that play crucial roles in increasing sales. Our target is to increase Item Sales per Outlet. To do so, I inspect features that contribute to outlet sales.
+The objective of this project is to empower retailers with insights into the key product and outlet attributes that significantly impact sales growth. The primary aim is to enhance Item Sales per Outlet. This involves a thorough examination of the features that drive outlet sales.
 
 ---
 **Data Source**:
