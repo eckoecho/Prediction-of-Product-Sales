@@ -117,7 +117,7 @@ As you can see from the plots above, RandomForestRegressor and Shap's top featur
 <img width="1001" alt="Screenshot 2023-09-07 at 10 44 32 AM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/c9748989-86b8-479b-bfce-a7b9be2fb299">
 
 * This force plot shows a predicted value of a single sample and it's most influencing features.
-* If a bar is to the right of the base value (positive side), it influences the prediction positively. 
+* If a bar is to the right of the base value, it increases the prediction value. 
 * The features in red bars contribute to the model's prediction of this particular sample. These particular features increase the value above the base value (2,211) by 1,790.
 * The features contributing to increased value:
     * Belongs to Outlet_Identifier_OUT027
