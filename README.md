@@ -84,7 +84,7 @@ This model could be improved by diving further into grouping Item Types and insp
 ![plot_linreg_coefficients](https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/f05de8b1-97fc-4970-9f1b-f6348fc00f78)
 
 * If the `outlet_identifier_OUT027` feature increases by 1 unit it will increase the outlet sales by at 675. This outlet seems to have a significant positive impact on sales, possibly due to factors like its location, size, marketing strategies, or product assortment.
-* If we increase the `outlet-location-type-tier3` feature by 1 unit it increases outlet sales 675. This could imply that products sold in locations categorized as "Tier 3" have a positive impact on sales, possibly due to factors like demographics, local preferences, or economic conditions.=
+* If we increase the `outlet-location-type-tier3` feature by 1 unit it increases outlet sales 675. This could imply that products sold in locations categorized as "Tier 3" have a positive impact on sales, possibly due to factors like demographics, local preferences, or economic conditions.
 * If we decrease the `outlet-type_grocery_store` by 1 unit it decreases the outlet sales by 856.  This might indicate that "Grocery Store" outlets have a negative impact on sales, possibly due to factors like limited product variety, lower foot traffic, or pricing strategies.
 
 
