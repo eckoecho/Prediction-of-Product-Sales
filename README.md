@@ -116,6 +116,7 @@ As you can see from the plots above, RandomForestRegressor and Shap's top featur
 ### Force Plot - Interpreted
 <img width="1001" alt="Screenshot 2023-09-07 at 10 44 32 AM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/c9748989-86b8-479b-bfce-a7b9be2fb299">
 
+* This force plot shows a single sample of data and the features contributing to the model's predictions.
 * If a bar is to the right of the base value (positive side), it means the feature's value is increasing the prediction.
 * This individual force plot's values are to the right of the base value, meaning the features in red contribute to the model's prediction of this particular sample. These particular features increase the value above the base value (2,211) by 1,790.
 * The features contributing to increased value are:
