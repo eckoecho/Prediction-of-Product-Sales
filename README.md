@@ -150,5 +150,5 @@ Collectively, these features have a predicted value of 5,735. The progress bar s
 # **For Further Information**
 For any additional questions, please contact:
 
-Echo Diaz (Data Scientist)
+Echo Diaz
 eckoecho@gmail.com
