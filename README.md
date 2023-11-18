@@ -42,7 +42,7 @@ The objective of this project is to empower retailers with insights into the key
 <img width="522" alt="Screenshot 2023-06-05 at 10 20 18 PM" src="https://github.com/eckoecho/Prediction-of-Product-Sales/assets/43970023/1b92742f-a658-4f60-a2ef-d2cbff5adb00">
 
 
-This histogram and boxplot shows the number of outlets and their respective Outlet Sales. The majority of Outlet Sales fall around $2,000.
+This histogram and boxplot shows the number of outlets and their respective Outlet Sales. The majority of the Outlet Sales fall around $2,000.
 
 ---
 ### **Explanatory Data Analysis**
