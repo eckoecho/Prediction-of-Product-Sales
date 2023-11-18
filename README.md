@@ -145,6 +145,9 @@ Features that negatively impact the predicted value:
 
 Collectively, these features have a predicted value of 5,735. The progress bar shows range in which value varies and actual prediction.
 
+# Summary of EDA and ML Predictions
+
+In the course of my analysis, a crucial insight emerged, highlighting the demand for quick and low-effort food options. The data suggests a positive correlation between the inclusion of more ready-made or on-the-go food items and a notable surge in outlet sales. Additionally, the analysis revealed a compelling relationship: higher Maximum Retail Price (MRP) for items corresponds to increased outlet sales. Therefore, strategically stocking each outlet with items boasting higher MRPs could significantly contribute to enhanced sales performance. Leveraging machine learning, the model identified the top 5 actionable features that, when optimized, have the potential to boost outlet sales by an impressive 2,221 units. This synthesis of exploratory findings and machine learning insights provides actionable strategies for maximizing outlet sales based on the data-driven understanding of customer preferences and purchasing patterns.
 
 ---
 # **For Further Information**
