@@ -71,7 +71,7 @@ My analysis indicates the need for quick, low-effort foods. Adding more ready-ma
 
 Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher MRP and sales will increase.
 
-## Machine Learning Model Performance: 
+## Machine Learning Model Performance: ##
 
 The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  
 ---
