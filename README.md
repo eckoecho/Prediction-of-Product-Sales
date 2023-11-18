@@ -73,7 +73,7 @@ Futhermore, higher Item MRP increase outlet sales. Stock each outlet with higher
 
 ## Machine Learning Model Performance: 
 
-The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  Deploy this model to have future predictions.
+The Decision Tree has the better overall regression metrics (MAE, MSE, RSME), I fine-tune the model by adjusting the hyperparamater of `max_depth`.  
 ---
 # **Limitations & Next Steps**
 
